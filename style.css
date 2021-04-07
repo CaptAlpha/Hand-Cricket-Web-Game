@@ -1,0 +1,71 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: #252525;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 5px 0 #a4ebf3;
+    font-size: 4rem;
+    color: #58b2fc;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #f7f3e9;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  img {
+    width: 50%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #f7f3e9;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  
+  }
+  button {
+    background-color: #252525; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    display: inline-block;
+    font-size: 16px;
+    animation: pulse 5s infinite;
+    
+   
+  }
+  @keyframes pulse {
+    0% {
+        background-color: #5f5f5f;
+      }
+      100% {
+        background-color: #000000;
+      }
+      0% {
+        background-color: #5f5f5f;
+      }
+  }
+  button:hover{
+
+    background-color: #a4ebf3;
+      
+  }
